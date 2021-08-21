@@ -1,0 +1,21 @@
+{
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "continente",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "service": "serviceImpl",
+  "dto": "no",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "infinite-scroll",
+  "name": "Pais",
+  "changelogDate": "20210517222614"
+}

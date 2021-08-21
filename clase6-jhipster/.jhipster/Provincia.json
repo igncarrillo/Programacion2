@@ -1,0 +1,27 @@
+{
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "zipcode",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipName": "pais",
+      "otherEntityName": "pais",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "nombre"
+    }
+  ],
+  "service": "serviceImpl",
+  "dto": "no",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "infinite-scroll",
+  "name": "Provincia",
+  "changelogDate": "20210517222900"
+}
